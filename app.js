@@ -19,6 +19,10 @@ class Server {
   setUser(user) {
     this.user = user;
   }
+  
+  getFilms() {
+    return this.films;
+  }
   serialize() {
     return {
       user: this.user,
