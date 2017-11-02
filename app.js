@@ -22,7 +22,8 @@ class Server {
     return {
       user: this.user,
       music: this.music,
-      films: this.films
+      films: this.films,
+      player: this.player
     }; 
   }
 }
