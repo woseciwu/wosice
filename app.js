@@ -28,8 +28,8 @@ class Server {
     this.films = films;
   }
   
-  setMusic(filns) {
-    this.films = films;
+  setMusic(music) {
+    this.music = music;
   }
   
   serialize() {
