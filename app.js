@@ -44,4 +44,9 @@ class Server {
   }
 }
 
+class Test {
+  constructor() {
+  }
+}
+
 module.exports = Server;
