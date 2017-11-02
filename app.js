@@ -46,6 +46,7 @@ class Server {
 
 class Test {
   constructor() {
+    this.server = new Server();
   }
 }
 
