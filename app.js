@@ -21,7 +21,8 @@ class Server {
   serialize() {
     return {
       user: user,
-      music: music
+      music: music,
+      films: films
     }; 
   }
 }
