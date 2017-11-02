@@ -24,7 +24,11 @@ class Server {
     return this.films;
   }
   
-  setFilms(filns) {
+  setFilms(films) {
+    this.films = films;
+  }
+  
+  setMusic(filns) {
     this.films = films;
   }
   
