@@ -27,6 +27,10 @@ class Server {
     this.films = films;
   }
   
+  getMusic(music) {
+    return this.music;
+  }
+  
   setMusic(music) {
     this.music = music;
   }
