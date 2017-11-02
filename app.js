@@ -20,8 +20,8 @@ class Server {
   }
   serialize() {
     return {
-      user: user,
-      music: music,
+      user: this.user,
+      music: this.music,
       films: films
     }; 
   }
